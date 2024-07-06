@@ -55,9 +55,9 @@ Install pytorch, cuda and cudnn, then install other dependencies via:
 
     Please refer to the original dataset websites for more details. You can directly download the processed RGB-Depth datasets from [DFormer](https://github.com/VCIP-RGBD/DFormer?tab=readme-ov-file), though you may need to make small modifications to the txt files.
 
-2. <u>We also provide the processed datasets (including RGB-Thermal and RGB-Depth) we use here: [Google Drive Link](https://drive.google.com/drive/folders/1GD4LYF208h9-mHJ_lxW11UM0TPlRmv0z?usp=drive_link).</u>
+<!-- 2. <u>We also provide the processed datasets (including RGB-Thermal and RGB-Depth) we use here: [Google Drive Link](https://drive.google.com/drive/folders/1GD4LYF208h9-mHJ_lxW11UM0TPlRmv0z?usp=drive_link).</u> -->
 
-3. If you are using your own datasets, please orgnize the dataset folder in the following structure:
+2. If you are using your own datasets, please orgnize the dataset folder in the following structure:
     ```shell
     <datasets>
     |-- <DatasetName1>
@@ -144,29 +144,29 @@ Install pytorch, cuda and cudnn, then install other dependencies via:
 We provide our trained weights on the four datasets:
 
 ### MFNet (9 categories)
-| Architecture | Backbone | mIOU | Weight |
+| Architecture | Backbone | mIOU |
 |:---:|:---:|:---:|:---:|
-| Sigma | VMamba-T | 60.2% | [Sigma-T-MFNet](https://drive.google.com/file/d/1N9UU9G5K8qxKsZOuEzSLiCGXC5XCaMaU/view?usp=drive_link) |
-| Sigma | VMamba-S | 61.1% | [Sigma-S-MFNet](https://drive.google.com/file/d/1heHnyvDTSa2oYxAD5wcgpIY3OZ198Cr2/view?usp=drive_link) |
-| Sigma | VMamba-B | 61.3% | [Sigma-B-MFNet](https://drive.google.com/file/d/1an6pqLeEYHZZLOmfyY8A3ooKP8ZVMU93/view?usp=drive_link) |
+| Sigma | VMamba-T | 60.2% |
+| Sigma | VMamba-S | 61.1% |
+| Sigma | VMamba-B | 61.3% |
 
 ### PST900 (5 categories)
-| Architecture | Backbone | mIOU | Weight |
+| Architecture | Backbone | mIOU |
 |:---:|:---:|:---:|:---:| 
-| Sigma | VMamba-T | 88.6% | [Sigma-T-PST](https://drive.google.com/file/d/1Qx_alwSmxj_8TqCO0RD6VQvhcwp-RQ-e/view?usp=drive_link) |
-| Sigma | VMamba-S | 87.8% | [Sigma-S-PST](https://drive.google.com/file/d/1iHL0fLtV7F2s7tm_OrCq7vsqYJPuIF6q/view?usp=drive_link) |
+| Sigma | VMamba-T | 88.6% |
+| Sigma | VMamba-S | 87.8% |
 
 ### NYU Depth V2 (40 categories)
-| Architecture | Backbone | mIOU | Weight |
+| Architecture | Backbone | mIOU |
 |:---:|:---:|:---:|:---:|
-| Sigma | VMamba-T | 53.9% | [Sigma-T-NYU](https://drive.google.com/file/d/15p2EePJj2sGKoIxXUxMNHq7vvplC8Gcd/view?usp=drive_link) |
-| Sigma | VMamba-S | 57.0% | [Sigma-S-NYU](https://drive.google.com/file/d/17afDv4BN69m66N3pfwTFnpBSXIUvlkwk/view?usp=drive_link) |
+| Sigma | VMamba-T | 53.9% |
+| Sigma | VMamba-S | 57.0% | 
 
 ### SUN RGB-D (37 categories)
-| Architecture | Backbone | mIOU | Weight |
+| Architecture | Backbone | mIOU |
 |:---:|:---:|:---:|:---:| 
-| Sigma | VMamba-T | 50.0% | [Sigma-T-SUN](https://drive.google.com/file/d/16mHj7AiEjkIWm77wBHO0dn7DQbGMljTM/view?usp=drive_link) |
-| Sigma | VMamba-S | 52.4% | [Sigma-S-SUN](https://drive.google.com/file/d/1PC8_Oj-m4yf-k6BQ4gBlGUdyOnG3xTsP/view?usp=drive_link) |
+| Sigma | VMamba-T | 50.0% | 
+| Sigma | VMamba-S | 52.4% | 
 
 ## 🙏Acknowledgements
 
