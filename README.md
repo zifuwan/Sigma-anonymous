@@ -145,26 +145,26 @@ We provide our trained weights on the four datasets:
 
 ### MFNet (9 categories)
 | Architecture | Backbone | mIOU |
-|:---:|:---:|:---:|:---:|
+|:---:|:---:|:---:|
 | Sigma | VMamba-T | 60.2% |
 | Sigma | VMamba-S | 61.1% |
 | Sigma | VMamba-B | 61.3% |
 
 ### PST900 (5 categories)
 | Architecture | Backbone | mIOU |
-|:---:|:---:|:---:|:---:| 
+|:---:|:---:|:---:|
 | Sigma | VMamba-T | 88.6% |
 | Sigma | VMamba-S | 87.8% |
 
 ### NYU Depth V2 (40 categories)
 | Architecture | Backbone | mIOU |
-|:---:|:---:|:---:|:---:|
+|:---:|:---:|:---:|
 | Sigma | VMamba-T | 53.9% |
 | Sigma | VMamba-S | 57.0% | 
 
 ### SUN RGB-D (37 categories)
 | Architecture | Backbone | mIOU |
-|:---:|:---:|:---:|:---:| 
+|:---:|:---:|:---:|
 | Sigma | VMamba-T | 50.0% | 
 | Sigma | VMamba-S | 52.4% | 
 
