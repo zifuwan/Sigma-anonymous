@@ -2,14 +2,8 @@
 <div align="center">
 <h1> Sigma: Siamese Mamba Network for Multi-Modal Semantic Segmentation </h1>
 
-<!-- [Zifu Wan](https://zifuwan.github.io/)<sup>1</sup>, [Yuhao Wang](https://924973292.github.io//)<sup>2</sup>, [Silong Yong](https://silongyong.github.io/)<sup>1</sup>, [Pingping Zhang](https://scholar.google.com/citations?user=MfbIbuEAAAAJ&hl=zh-CN)<sup>2</sup>, [Simon Stepputtis](https://simonstepputtis.com/)<sup>1</sup>, [Katia Sycara](https://scholar.google.com/citations?user=VWv6a9kAAAAJ&hl=en)<sup>1</sup>, [Yaqi Xie](https://yaqi-xie.me/)<sup>1</sup></sup> -->
 Anonymous WACV 2025 Submission
 
-<!-- <sup>1</sup>  Robotics Institute, Carnegie Mellon University, USA  
-<sup>2</sup>  School of Future Technology, Dalian University of Technology, China -->
-
-<!-- [![arXiv](https://img.shields.io/badge/arXiv-2404.04256-b31b1b.svg)](https://arxiv.org/abs/2404.04256) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![X](https://img.shields.io/twitter/url/https/twitter.com/bukotsunikki.svg)](https://x.com/_akhaliq/status/1777272323504025769) -->
 
 
 </div>
@@ -178,21 +172,4 @@ We provide our trained weights on the four datasets:
 
 Our dataloader codes are based on [CMX](https://github.com/huaaaliu/RGBX_Semantic_Segmentation). Our Mamba codes are adapted from [Mamba](https://github.com/state-spaces/mamba) and [VMamba](https://github.com/MzeroMiko/VMamba). We thank the authors for releasing their code!
 We also appreciate [DFormer](https://github.com/VCIP-RGBD/DFormer?tab=readme-ov-file) for providing their processed RGB-Depth datasets.
-
-<!-- ## 📧Contact
-
-If you have any questions, please  contact at [zifuw@andrew.cmu.edu](mailto:zifuw@andrew.cmu.edu). -->
-
-<!-- ## 📌 BibTeX & Citation
-
-If you find this code useful, please consider citing our work:
-
-```bibtex
-@article{wan2024sigma,
-  title={Sigma: Siamese Mamba Network for Multi-Modal Semantic Segmentation},
-  author={Wan, Zifu and Wang, Yuhao and Yong, Silong and Zhang, Pingping and Stepputtis, Simon and Sycara, Katia and Xie, Yaqi},
-  journal={arXiv preprint arXiv:2404.04256},
-  year={2024}
-}
-``` -->
 
