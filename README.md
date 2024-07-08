@@ -168,8 +168,3 @@ We provide our trained weights on the four datasets:
 | Sigma | VMamba-T | 50.0% | 
 | Sigma | VMamba-S | 52.4% | 
 
-## 🙏Acknowledgements
-
-Our dataloader codes are based on [CMX](https://github.com/huaaaliu/RGBX_Semantic_Segmentation). Our Mamba codes are adapted from [Mamba](https://github.com/state-spaces/mamba) and [VMamba](https://github.com/MzeroMiko/VMamba). We thank the authors for releasing their code!
-We also appreciate [DFormer](https://github.com/VCIP-RGBD/DFormer?tab=readme-ov-file) for providing their processed RGB-Depth datasets.
-
